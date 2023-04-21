@@ -1,0 +1,16 @@
+.boton{
+    color: rgb(8, 8, 8);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:red
+}
+
+.boton:hover{
+    color: white;
+    background-color: green;
+}
+.boton::before{
+    content: "pase por encima";
+}
+.boton:hover::before{
+    content: "hecho";
+}
